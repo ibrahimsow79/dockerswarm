@@ -24,10 +24,3 @@ output "private_subnet_c_id" {
 output "sg_dockerswarm_id" {
   value = "${aws_security_group.sg_dockerswarm.id}"
 }
-
-output "sg_sqlclient_id" {
-  value = "${aws_security_group.sg_sqlclient.id}"
-}
-output "sg_db_idecide_id" {
-  value = "${aws_security_group.sg_db_idecide.id}"
-}

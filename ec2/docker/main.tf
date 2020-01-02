@@ -10,7 +10,7 @@ resource "aws_instance" "appidecide" {
   private_ip                  = "${var.private_ip}"
   source_dest_check           = false
   iam_instance_profile        = "aws-s3-read-policy"
-  user_data                   = "${file("ec2/appidecide/install.sh")}"
+  user_data                   = "${file("ec2/docker/install.sh")}"
 
   tags = {
     Name          = "{var.instance_name}"

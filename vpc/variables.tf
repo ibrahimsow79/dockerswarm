@@ -13,7 +13,9 @@ variable "aws_az_a" {
 variable "aws_az_b" {
   description = "Availbaility Zone b"
 }
-
+variable "aws_az_c" {
+  description = "Availbaility Zone c"
+}
 # Definition of Environnment
 variable "env" {
  description = "environnement : prod, dev, int,rec"
@@ -27,12 +29,17 @@ variable "public_subnet_cidr_a" {
 variable "public_subnet_cidr_b" {
   description = "CIDR for the public subnet"
 }
-
+variable "public_subnet_cidr_c" {
+  description = "CIDR for the public subnet"
+}
 #CIDR Block Notation of the Private Subnets
 variable "private_subnet_cidr_a" {
   description = "CIDR for the private subnet"
 }
 
 variable "private_subnet_cidr_b" {
+  description = "CIDR for the public subnet"
+}
+variable "private_subnet_cidr_c" {
   description = "CIDR for the public subnet"
 }

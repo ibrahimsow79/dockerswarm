@@ -11,7 +11,7 @@ variable "key_path" {
   default = "C:\\Users\\i.sow\\.ssh\\id_rsa.pub"
 }
 
-variable "sg_appidecide_id" {
+variable "sg_dockerswarm_id" {
   description = "Security Group of appidecide VM"
 }
 
